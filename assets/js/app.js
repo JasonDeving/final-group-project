@@ -98,7 +98,7 @@ function initMap() {
 				return function () {
 					console.log(locations);
 					//
-					var img = 'assets/images/png/' + locations[i][4].alpha2Code + '.png';
+					var img = 'https://floating-shore-29890.herokuapp.com/assets/images/png/' + locations[i][4].alpha2Code + '.png';
 					var wiki = "https://en.wikipedia.org/wiki/" + locations[i][0].replace(/ /g,"_");
 					//
 					var contentString = '<div id="content"> ' +  
