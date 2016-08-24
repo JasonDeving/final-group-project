@@ -98,7 +98,7 @@ function initMap() {
 				return function () {
 					console.log(locations);
 					//
-					var img = 'https://github.com/JasonDeving/final-group-project/tree/master/assets/images/png/' + locations[i][4].alpha2Code + '.png';
+					var img = 'http://jasonchan.website/assets/images/png/' + locations[i][4].alpha2Code.toLowerCase() + '.png';
 					var wiki = "https://en.wikipedia.org/wiki/" + locations[i][0].replace(/ /g,"_");
 					//
 					var contentString = '<div id="content"> ' +  
