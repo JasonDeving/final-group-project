@@ -1,3 +1,23 @@
+$('#clickMe').on('click', function(){
+	$('.wrapper').hide();
+});
+
+
+
+
+var config = {
+    apiKey: "AIzaSyCoNWeGOqpN3PVQmHGoSXeWmLPi749hYrY",
+    authDomain: "mapfaq.firebaseapp.com",
+    databaseURL: "https://mapfaq.firebaseio.com",
+    storageBucket: "",
+  };
+  firebase.initializeApp(config);
+
+var database = firebase.database();
+
+
+
+
 function initMap() {
 
 	var locations = [];
@@ -115,6 +135,8 @@ function initMap() {
 					   '</div>' +
 					   '</div>';
 
+
+					database.ref().push(locations[i][0]);
 
 					infowindow.setContent(contentString);
 					infowindow.open(map, marker);

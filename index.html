@@ -5,31 +5,28 @@
 	<title>Map Facts</title>
 	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="animate.min.css">
 </head>
 <body>
-	
-		
-			<input type="text" id="search-input" class="form-control" placeholder="Search for...">
-		
-		
-	 
-	
 
+
+	<div class="wrapper fade-in">
+		<h1>Mapfaq</h1>
+		<button id="clickMe">Enter Map</button>
+	</div>
+
+	<input type="text" id="search-input" class="form-control" placeholder="Search for...">
 	<div id="map"></div>
-
-	
-		
-	
 	
 
 
 
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ1WuGkfZ989qhnlMnNbG59So58rURqrk&callback=initMap&libraries=places"
-    async defer></script>
-	<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-	<script src="assets/js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ1WuGkfZ989qhnlMnNbG59So58rURqrk&callback=initMap&libraries=places"
+async defer></script>
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<script src="assets/js/app.js"></script>
 </body>
 </html>
