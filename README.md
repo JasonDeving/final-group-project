@@ -1,4 +1,4 @@
-# MapFaq
+# Map X
 
 Integrating Google Maps API and Restcountries API to display geolocations with markers, enabling users to search and identify the exact geographic locations of all registered countries in the world.
 
