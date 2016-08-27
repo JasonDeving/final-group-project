@@ -44,15 +44,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Walk throughs of code
 
-For Project presentation, you can include snippets of code you found buggy, interesting, or are overall proud of here. Try to limit the quantity and size to quick readable bits.
-
-You can also show where you've used technologies you've learned and applied here.
+The code below is what is required to have the full Google Maps showing on the browser. The variable map holds the visual of the Google Map and has properties that control the zoom distance and centering propety. 
 ```
-function awesomeThing() {
-    //...
-    // try not to make it too long otherwise, point to filepaths:line numbers
-    //...
-}
+var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 2,
+      center: new google.maps.LatLng(0, 0),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
 ```
 
 
