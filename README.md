@@ -70,8 +70,8 @@ This project is licensed under the MIT License - see the [LICENSE.md]() file for
 
 ## Acknowledgements
 
-  - UCLA0621fsf
-  - All Coding Bootcamp staff
+  - All UCLAX Coding Bootcamp students
+  - All UCLAX Coding Bootcamp staff
   - Inspiration
 
 
