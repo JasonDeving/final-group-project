@@ -6,6 +6,7 @@ Integrating Google Maps API and Restcountries API to display geolocations with m
 ## Screenshots
 ![solarized palette](https://github.com/leejhjake/markdown-test/raw/master/fullmap.jpg)
 ![solarized palette](https://github.com/leejhjake/markdown-test/raw/master/infobox.jpg)
+[DEMO](https://serene-fjord-53739.herokuapp.com/ "Map X")
 
 ## Technologies used
 
