@@ -18,6 +18,7 @@ html, body {
   font-size: 100px;
 }
 
+
 /**********************************/
 /*ANIMATION*/
 /**********************************/
@@ -93,7 +94,7 @@ html, body {
 
 #clickMe {
   font-size: 30px;
-  margin-top: 125px;
+  margin: 100px auto;
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -102,7 +103,6 @@ html, body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
 }
 
 #search-input {
